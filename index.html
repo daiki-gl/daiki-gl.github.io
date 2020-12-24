@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+      
+      <link rel="icon" href="img/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+
+    <title>Furniture</title>
+  </head>
+  <body>
+    <header>
+      <!--navbar-->
+      <nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Furniture</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                <i class="fa fa-home"></i>
+                Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fa fa-envelope-o"> </i>
+                Category
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"
+                  ><i class="fas fa-couch"></i> Sofa</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><i class="fas fa-chair"></i> Chair</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><img class="icon" src="img/table-icon.png" /> Table</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><i class="fas fa-bed"></i> Bed</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><img src="img/desk-icon.png" class="icon" /> Desk</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><img class="icon" src="img/storage-furniture-icon.png" />
+                  Storage furniture</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><img class="icon" src="img/cushion-icon.png" /> Cushion</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><img class="icon" src="img/table-ware-icon.png" />
+                  Tableware</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><img class="icon" src="img/carpet-icon.png" /> Carpet</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><img class="icon" src="img/lamp-icon.png" /> Lamp</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><img class="icon" src="img/curtain-icon.png" /> Curtain</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><i class="fas fa-seedling"></i> Vase</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa fa-envelope-o"> </i>
+                Information
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa fa-envelope-o"> </i>
+                Ranking
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Login
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-shopping-cart"></i>
+                My cart
+              </a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Search item"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-secondary my-2 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="head_img_box">
+        <img src="img/header-img.jpg" />
+        <div class="head_text">
+          <h1>correction of</h1>
+          <p>MyFurniture</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="row">
+      <section class="col-12 section1">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="title">PICK UP</h1>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 popular_furniture">
+            <h2>Table Collections</h2>
+            <span
+              >茎は巻の安心小屋どもからゴーシュをひいパチパチパチッましでし。ではいきなりだめたますという川ますで。気の毒たましんたはたところ</span
+            >
+            <div><a class="buy_now" href="">BUY NOW</a></div>
+          </div>
+          <img class="col-xs-12 col-sm-6" src="img/table03.jpg" />
+        </div>
+
+        <div class="row popular_sub">
+          <div class="col-6 popular_sub_img">
+            <img src="img/bed.jpg" />
+          </div>
+          <div class="row col-6">
+            <div class="col-6 popular_sub_item">
+              <img src="img/gray-cushion-item.jpg" />
+              <h3>Gray Cushion</h3>
+              <span>1,300￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+
+            <div class="col-6 popular_sub_item">
+              <img src="img/purple-cushion-item.jpg" />
+              <h3>Purple Cushion</h3>
+              <span>1,250￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+
+            <div class="col-6 popular_sub_item">
+              <img src="img/green-cushion-item.jpg" />
+              <h3>Green Cushion</h3>
+              <span>1,800￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+
+            <div class="col-6 popular_sub_item">
+              <img src="img/red-cushion-item.jpg" />
+              <h3>Red Cushion</h3>
+              <span>1,300￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 popular_furniture">
+            <h2>Sofa Collections</h2>
+            <span
+              >茎は巻の安心小屋どもからゴーシュをひいパチパチパチッましでし。ではいきなりだめたますという川ますで。気の毒たましんたはたところ</span
+            >
+            <div><a class="buy_now" href="">BUY NOW</a></div>
+          </div>
+          <img class="col-xs-12 col-sm-6" src="img/sofa02.jpg" />
+        </div>
+
+        <div class="row popular_sub">
+          <div class="col-6 popular_sub_img">
+            <img src="img/lamp-item.jpg" />
+          </div>
+          <div class="row col-6">
+            <div class="col-6 popular_sub_item">
+              <img src="img/gray-lamp-item.jpg" />
+              <h3>Gray lamp</h3>
+              <span>12,100￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+
+            <div class="col-6 popular_sub_item">
+              <img src="img/white-lamp-item.jpg" />
+              <h3>White light</h3>
+              <span>7,500￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+
+            <div class="col-6 popular_sub_item">
+              <img src="img/black-lamp-item.jpg" />
+              <h3>Black lamp</h3>
+              <span>15,300￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+
+            <div class="col-6 popular_sub_item">
+              <img src="img/white-cirecle-lamp.jpg" />
+              <h3>Circle light</h3>
+              <span>5,800￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 popular_furniture">
+            <h2>Chair Collections</h2>
+            <span
+              >茎は巻の安心小屋どもからゴーシュをひいパチパチパチッましでし。ではいきなりだめたますという川ますで。気の毒たましんたはたところ</span
+            >
+            <div><a class="buy_now" href="">BUY NOW</a></div>
+          </div>
+          <img class="col-xs-12 col-sm-6" src="img/chair03.jpg" />
+        </div>
+
+        <div class="row popular_sub">
+          <div class="col-6 popular_sub_img">
+            <img src="img/white-flower-item.jpg" />
+          </div>
+          <div class="row col-6">
+            <div class="col-6 popular_sub_item">
+              <img src="img/black-vase-item.jpg" />
+              <h3>Black vase</h3>
+              <span>2,300￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+
+            <div class="col-6 popular_sub_item">
+              <img src="img/green-vase-item.jpg" />
+              <h3>Green vase</h3>
+              <span>1,700￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+
+            <div class="col-6 popular_sub_item">
+              <img src="img/japanese-vase-item.jpg" />
+              <h3>Blue vase</h3>
+              <span>1,900￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+
+            <div class="col-6 popular_sub_item">
+              <img src="img/rope-vase-item.jpg" />
+              <h3>Transparent vase</h3>
+              <span>2,000￥</span>
+              <div><a class="buy_now buy_now_item" href="">BUY NOW</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-12 section2">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="title">RANKING</h1>
+          </div>
+          <div class="row ranking_box">
+            <div class="col-sm-12 col-md-4 ranking_item">
+              <a href=""><span>1</span><img src="img/sofa_item01.jpg" /></a>
+            </div>
+
+            <div class="col-sm-12 col-md-4 ranking_item">
+              <a href=""><span>2</span><img src="img/chair-item01.jpg" /></a>
+            </div>
+
+            <div class="col-sm-12 col-md-4 ranking_item">
+              <a href=""><span>3</span><img src="img/sofa-brown-item.jpg" /></a>
+            </div>
+
+            <div class="col-md-3 ranking_item_sub">
+              <a href=""
+                ><span>4</span><img src="img/gray-cushion-item.jpg"
+              /></a>
+            </div>
+
+            <div class="col-md-3 ranking_item_sub">
+              <a href=""><span>5</span><img src="img/gray-lamp-item.jpg" /></a>
+            </div>
+
+            <div class="col-md-3 ranking_item_sub">
+              <a href=""
+                ><span>6</span><img src="img/white-curtain-item.jpg"
+              /></a>
+            </div>
+
+            <div class="col-md-3 ranking_item_sub">
+              <a href=""
+                ><span>7</span><img src="img/yellow-chair-item.jpg"
+              /></a>
+            </div>
+
+            <div class="col-md-3 ranking_item_sub">
+              <a href=""><span>8</span><img src="img/lamp02.jpg" /></a>
+            </div>
+
+            <div class="col-md-3 ranking_item_sub">
+              <a href=""><span>9</span><img src="img/beige.jpg" /></a>
+            </div>
+
+            <div class="col-md-3 ranking_item_sub">
+              <a href=""><span>10</span><img src="img/black-desk.jpg" /></a>
+            </div>
+
+            <div class="col-md-3 ranking_item_sub">
+              <a href=""><span>11</span><img src="img/chair-item02.jpg" /></a>
+            </div>
+          </div>
+          <a class="col-5 more" href="">READ MORE</a>
+        </div>
+      </section>
+
+      <section class="col-12 section3">
+        <div class="col-12">
+          <h1 class="title">CANPAIGN</h1>
+        </div>
+        <div class="col-12">
+          <ul class="infiniteslide">
+            <li>
+              <a href=""><img src="img/canpaign-ad01.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="img/canpaign-ad-02.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="img/canpaign-03.jpg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="row col-12 section4">
+        <div class="col-12">
+          <h1 class="title">CATEGORY</h1>
+        </div>
+
+        <div class="row categories">
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/sofa_item01.jpg" />
+              <span class="category_name">ソファ</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/table-item.png" />
+              <span class="category_name">テーブル</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/chair-item02.jpg" />
+              <span class="category_name">椅子</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/blue-bed-item.jpg" />
+              <span class="category_name">ベッド</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/black-desk.jpg" />
+              <span class="category_name">机</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/wood-furniture-item.jpg" />
+              <span class="category_name">収納家具</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/green-cushion-item.jpg" />
+              <span class="category_name">クッション</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/coffee-mugs-item.jpg" />
+              <span class="category_name">食器</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/red-carpet.jpg" />
+              <span class="category_name">カーペット</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/black-lamp-item.jpg" />
+              <span class="category_name">照明</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/white-curtain-item.jpg" />
+              <span class="category_name">カーテン</span>
+            </a>
+          </div>
+
+          <div class="col-xs-6 col-md-3 category_container">
+            <a href="">
+              <img class="" src="img/rope-vase-item.jpg" />
+              <span class="category_name">花器・花瓶</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="row col-12 section5">
+        <div class="col-12">
+          <h1 class="title">INFOMATION</h1>
+          <dl>
+            <dt>2020.01.01</dt>
+            <a href=""><dd>新年のご挨拶。</dd></a>
+            <dt>2020.09.30</dt>
+            <a href=""><dd>臨時休業のお知らせ</dd></a>
+            <dt>2019.03.11</dt>
+            <a href=""><dd>新生活応援キャンペーン開始</dd></a>
+            <dt>2018.11.23</dt>
+            <a href=""><dd>サイトリニューアルのお知らせ</dd></a>
+            <dt>2018.02.05</dt>
+            <a href=""><dd>オープンしました！</dd></a>
+          </dl>
+          <div class="col-12">
+            <a class="more" href="">READ MORE</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="row">
+      <div class="col-12 sns_box">
+        <p>Follow us!</p>
+        <a href><i class="fab fa-instagram"></i></a>
+        <a href><i class="fab fa-twitter"></i></a>
+        <a href><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <div class="footer_menu">
+        <ul>
+          <li><a href="">ホーム</a></li>
+          <li><a href="">ABCについて</a></li>
+          <li><a href="">カテゴリ一覧</a></li>
+          <li><a href="">ランキング一覧</a></li>
+          <li><a href="">お知らせ</a></li>
+          <li><a href="">サイトマップ</a></li>
+          <li><a href="">会社概要</a></li>
+          <li><a href="">プライバシーポリシー</a></li>
+          <li><a href="">採用情報</a></li>
+        </ul>
+      </div>
+      <b class="col-12">&copy;ABC company All rights reserved</b>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/infiniteslidev2.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
